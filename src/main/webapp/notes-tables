@@ -1,0 +1,41 @@
+student :
+    id 
+    name
+    email 
+    password 
+    age
+    dept 
+    joining_date 
+    fine 
+    
+   	Add student :
+   	
+   	INSERT INTO `student`(`id`, `name`, `email`, `password`, `age`, `dept`, `joining_date`, `fine`) VALUES ('19it210','Karthika P H','karthikaph123@gmail.com','123456',20,'IT','20-02-2022',100);
+   	
+librarian :
+    id 
+    name 
+    email 
+    password 
+books : 
+    id 
+    name 
+    author
+    publisher 
+    quantity 
+    issued_quantity 
+    added_date 
+issued-books :
+    id 
+    book 
+    student-id 
+    student-name 
+    email 
+    dept 
+    issued-date 
+    renewal-date 
+    issue-no 
+
+
+
+    
